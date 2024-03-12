@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Dharrochy";
+    src: url("../../../assets/Dharrochy Font/Dharrochy.otf") format("opentype"), url("../../../assets/Dharrochy Font/Dharrochy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    height: 74px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+
+    h1 {
+        font-family: 'Dharrochy', sans-serif;
+        font-size: 33px;
+        color: var(--verde-sustentavel);
+    }
+
+    .navigation-bar {
+        width: 610px;
+        border: solid 1px var(--marrom-terra);
+        padding: 3px 20px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: text;
+
+        button {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+
+            .icon {
+                font-size: 14px;
+                color: var(--marrom-terra);
+            }
+        }
+
+        input {
+            color: var(--marrom-terra);
+            font-size: 16px;
+            border: none;
+            width: 100%;
+            outline: none;
+        }
+    }
+
+    .header-tab {
+        display: flex;
+        gap: 10px;
+        img{
+            cursor: pointer;
+            width: 24px;
+            height: 20px;
+        }
+    }
+
+    .profile {
+    }
+}

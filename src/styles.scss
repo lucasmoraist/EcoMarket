@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --verde-sustentavel: #6ABD45;
+    --azul-sereno: #3EA3C2;
+    --amarelo-organico: #F5D76E;
+    --marrom-terra: #8E715A;
+    --branco-puro: #FFFFFF;
+
+    --font-sequel-sans: 'Sequel Sans', sans-serif;
+    --font-abril-fatface: 'Abril Fatface', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}

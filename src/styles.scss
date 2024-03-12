@@ -11,13 +11,23 @@
     --font-abril-fatface: 'Abril Fatface', cursive;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: var(--font-abril-fatface);
+}
+
+p,
+.btn {
+    font-family: var(--font-sequel-sans);
 }

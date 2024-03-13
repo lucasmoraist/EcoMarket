@@ -38,14 +38,25 @@
     header {
         align-items: end;
         justify-content: space-around;
-    }
 
-    .navigation-bar {
-        width: 30%;
-        cursor: text;
-
-        button {
-            cursor: pointer;
+        .logo-navigation {
+            display: flex;
+            gap: 30px;
+    
+            .navigation-bar {
+                cursor: text;
+                width: 100%;
+        
+                button {
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        .header-profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
         }
     }
 }
@@ -62,7 +73,6 @@ header {
     }
 
     .navigation-bar {
-        width: 30%;
         border: solid 1px var(--marrom-terra);
         padding: 3px 20px;
         border-radius: 15px;

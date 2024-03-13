@@ -7,8 +7,8 @@
     --marrom-terra: #8E715A;
     --branco-puro: #FFFFFF;
 
-    --font-sequel-sans: 'Sequel Sans', sans-serif;
-    --font-abril-fatface: 'Abril Fatface', cursive;
+    --font-playfair-display: "Playfair Display", serif;
+    --font-poppins: "Poppins", sans-serif;
 }
 
 * {
@@ -24,10 +24,10 @@ body {
 
 h1,
 h2 {
-    font-family: var(--font-abril-fatface);
+    font-family: var(--font-playfair-display);
 }
 
 p,
 .btn {
-    font-family: var(--font-sequel-sans);
+    font-family: var(--font-poppinsy);
 }

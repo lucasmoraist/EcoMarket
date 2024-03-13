@@ -1,0 +1,80 @@
+<footer>
+    <!-- Inspirado na Samsung -->
+    <section class="listas">
+        <div>
+            <h2>Produtos</h2>
+            <ul *ngFor="let product of listProducts">
+                <li>
+                    <p>{{product}}</p>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Sustentabilidade</h2>
+            <ul *ngFor="let sustainability of listSustainability">
+                <li>
+                    <p>{{sustainability}}</p>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Quem somos</h2>
+            <ul *ngFor="let about of listAboutUs">
+                <li>
+                    <p>{{about}}</p>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Suporte</h2>
+            <ul *ngFor="let support of listSupport">
+                <li>
+                    <p>{{support}}</p>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Sua Conta</h2>
+            <ul *ngFor="let account of listAccount">
+                <li>
+                    <p>{{account}}</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="direitos">
+        <p>
+            Direitos Autorais &copy; 2024 EcoMarket. Todos os direitos reservados.
+        </p>
+
+        <p>
+            ECOMARKET SUSTENTÁVEL LTDA., com sede em Rua das Árvores, nº 123, Jardim Ecológico, Cidade Verde, 12345-678,
+            inscrita no CNPJ/MF sob o nº. 12.345.678/0001-90.
+        </p>
+
+        <p>
+            Este site é otimizado para os navegadores mais recentes, como Google Chrome, Mozilla Firefox, e Microsoft
+            Edge.
+        </p>
+
+        <p>
+            Métodos de pagamento aceitos: Cartão de crédito (Visa, MasterCard, American Express), PayPal, Boleto
+            bancário, Transferência bancária e EcoPay.
+        </p>
+    </section>
+
+    <section class="terms">
+        <div>
+            <h2>Brasil/Português</h2>
+        </div>
+
+        <ul *ngFor="let term of listTerms">
+            <li>{{term}}</li>
+        </ul>
+    </section>
+</footer>

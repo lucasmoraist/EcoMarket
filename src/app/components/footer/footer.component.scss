@@ -1,3 +1,90 @@
+@media screen and (max-width: 430px) {
+    footer {
+        width: 100%;
+        background-color: #F9F9F9;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+
+        .listas {
+            flex-direction: column;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2 {
+                    margin: 20px 0;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 5px 0;
+
+                    p {
+                        font-size: 12px;
+                        font-weight: 300;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+
+        .direitos {
+            gap: 5px;
+            padding: 10px 33px;
+        }
+
+        .terms{
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 431px) {
+    footer {
+        .listas {
+            justify-content: space-between;
+
+            div {
+                width: 216px;
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    width: 80%;
+
+                    p:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .direitos {
+            gap: 5px;
+            padding: 10px 33px;
+        }
+
+        .terms {
+            div {
+                border-right: solid 1px var(--marrom-terra);
+                padding-right: 20px;
+            }
+
+            ul {
+                li {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
 footer {
     width: 100%;
     background-color: #F9F9F9;
@@ -7,32 +94,23 @@ footer {
 
     .listas {
         display: flex;
-        justify-content: space-around;
-        padding-left: 17px;
+        padding-left: 33px;
 
         div {
-            width: 216px;
-
             h2 {
                 color: var(--marrom-terra);
                 font-size: 24px;
                 font-weight: 400;
-                margin-bottom: 20px;
             }
 
             ul {
                 list-style: none;
                 padding: 5px 0;
-                width: 80%;
 
                 p {
                     font-size: 12px;
                     font-weight: 300;
                     text-align: justify;
-                }
-
-                p:hover {
-                    text-decoration: underline;
                 }
             }
         }
@@ -43,8 +121,6 @@ footer {
         border-bottom: solid 1px var(--marrom-terra);
         display: flex;
         flex-direction: column;
-        gap: 5px;
-        padding: 10px 33px;
 
         p {
             font-size: 12px;
@@ -59,9 +135,6 @@ footer {
         margin-top: 20px;
 
         div {
-            border-right: solid 1px var(--marrom-terra);
-            padding-right: 20px;
-
             h2 {
                 font-size: 16px;
                 font-weight: 600;
@@ -72,11 +145,10 @@ footer {
             list-style: none;
             width: 120px;
             text-align: center;
-            padding-left: 10px;
+            padding: 0 10px;
 
             li {
                 font-size: 12px;
-                cursor: pointer;
             }
         }
     }

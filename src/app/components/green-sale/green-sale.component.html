@@ -1,15 +1,15 @@
 <section>
     <h2>Produtos com desconto</h2>
     <div id="conteiner">
-        <div id="card-item">
+        <div id="card-item" *ngFor="let produto of listRow">
             <div id="content-up">
-                <img src="assets/legumes-costafarms.png" alt="">
-                <p>Pack de legumes - Costafarms</p>
+                <img src="{{produto.img}}" alt="">
+                <p>{{produto.name}}</p>
             </div>
 
             <div id="content-down">
-                <p>R$ 15,99</p>
-                <p id="no-discount">R$ 19,99</p>
+                <p>R$ {{produto.discount}}</p>
+                <p id="no-discount">R$ {{produto.price}}</p>
                 <button>Adicionar ao carrinho</button>
             </div>
         </div>

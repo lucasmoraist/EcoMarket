@@ -1,1 +1,9 @@
-<p>category works!</p>
+<section>
+    <h2>Categorias</h2>
+    <div class="grid">
+        <div class="card" *ngFor="let categoria of categorias">
+            <img src="{{categoria.img}}" alt="Imagem das categorias">
+            <p>{{categoria.name}}</p>
+        </div>
+    </div>
+</section>

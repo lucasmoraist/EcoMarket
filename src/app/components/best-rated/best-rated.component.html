@@ -1,0 +1,27 @@
+<section>
+    <h2>Mais vistos</h2>
+    <div id="conteiner">
+        <div id="card-item" *ngFor="let product of products">
+            <div id="content-left">
+                <img src="{{product.img}}" alt="Foto do produto">
+            </div>
+
+            <div id="content-right">
+                <div>
+                    <p>{{product.name}}</p>
+                    <!-- <div id="stars">
+                        <fa-icon [icon]="faStar" class="yellow-star"></fa-icon>
+                        <fa-icon [icon]="faStar" class="yellow-star"></fa-icon>
+                        <fa-icon [icon]="faStar" class="yellow-star"></fa-icon>
+                        <fa-icon [icon]="faStar" class="yellow-star"></fa-icon>
+                        <fa-icon [icon]="faStar" class="grey-star"></fa-icon>
+                    </div>
+                    <p id="views">1.942 Reviews</p> -->
+                    <p>R$ {{product.discount}}</p>
+                    <p id="no-discount">R$ {{product.price}}</p>
+                </div>
+                <button>Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </div>
+</section>

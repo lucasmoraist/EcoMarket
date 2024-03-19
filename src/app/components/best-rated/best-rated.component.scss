@@ -1,0 +1,88 @@
+section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    #conteiner {
+        display: flex;
+        width: 80vw;
+        padding: 5px 10px;
+        gap: 15px;
+        overflow-x: scroll;
+
+        #card-item {
+            box-shadow: 0 4px 8px 2px rgba($color: #dbdbdb, $alpha: .5);
+            border-radius: 8px;
+            padding: 12px;
+            cursor: pointer;
+
+            display: flex;
+            justify-content: space-around;
+            width: 400px;
+            height: 200px;
+            gap: 15px;
+
+            #content-left {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                border-radius: 8px 8px 0 0;
+
+                img {
+                    width: 162px;
+                    height: 122px;
+                }
+            }
+
+            #content-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                #no-discount {
+                    text-decoration: line-through;
+                    color: #d9d9d9;
+                    font-weight: 200;
+                }
+
+                button {
+                    margin-top: 5px;
+                    width: 150px;
+                    height: 25px;
+                    background-color: transparent;
+                    border: solid 2px var(--verde-sustentavel);
+                    border-radius: 4px;
+                    color: var(--verde-sustentavel);
+                    font-weight: 400;
+                    cursor: pointer;
+                }
+                .yellow-star{
+                    color: #EBC351;
+                    font-size: 12px;
+                }
+                .grey-star{
+                    color: #C7C7C7;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #conteiner::-webkit-scrollbar {
+        height: 5px;
+        background-color: transparent;
+    }
+
+    #conteiner::-webkit-scrollbar-thumb {
+        background-color: var(--amarelo-organico);
+        border-radius: 20px;
+    }
+}

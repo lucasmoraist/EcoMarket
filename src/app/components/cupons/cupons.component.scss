@@ -1,0 +1,80 @@
+section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    #conteiner {
+        margin-top: 40px;
+        display: flex;
+        width: 85vw;
+        gap: 20px;
+        padding: 5px 10px;
+        overflow-x: scroll;
+
+        #cupom {
+            display: flex;
+            width: 381px;
+            height: 116px;
+            background-color: var(--branco-puro);
+            border-radius: 20px;
+            gap: 10px;
+
+            div:first-child {
+                background-color: var(--verde-sustentavel);
+                color: var(--branco-puro);
+                border-radius: 20px 0 0 20px;
+                width: 146px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                #porcent {
+                    color: var(--branco-puro);
+                    font-weight: bold;
+                    font-size: 30px;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+
+            #info-cupom {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 6px;
+
+                p {
+                    font-size: 12px;
+                    font-weight: 300;
+                }
+
+                button {
+                    border: none;
+                    border-radius: 10px;
+                    background-color: var(--verde-sustentavel);
+                    color: var(--branco-puro);
+                    width: 90px;
+                    height: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    #conteiner::-webkit-scrollbar {
+        height: 5px;
+        background-color: transparent;
+    }
+
+    #conteiner::-webkit-scrollbar-thumb {
+        background-color: var(--amarelo-organico);
+        border-radius: 20px;
+    }
+}

@@ -1,1 +1,18 @@
-<p>cupons works!</p>
+<section>
+    <h2>Cupons Disponíveis</h2>
+    <div id="conteiner">
+        <div id="side-right" *ngFor="let cupom of listCupons">
+            <div id="cupom">
+                <div>
+                    <h2 id="porcent">R$ {{cupom.value}}</h2>
+                    <p>{{cupom.desc}}</p>
+                </div>
+
+                <div id="info-cupom">
+                    <p>Válido até <b>{{cupom.validate}}</b></p>
+                    <button>Resgatar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

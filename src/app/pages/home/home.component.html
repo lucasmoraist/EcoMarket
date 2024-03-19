@@ -3,12 +3,18 @@
         <app-banner />
     </section>
     <section>
-        <app-green-sale />
+        <app-green-sale [products]="listDiscount"/>
     </section>
 
-    <section></section>
+    <section>
+        <app-best-rated [products]="bestRated"/>
+    </section>
 
-    <section></section>
+    <section>
+        <app-category />
+    </section>
 
-    <section></section>
+    <section>
+        <app-cupons />
+    </section>
 </main>

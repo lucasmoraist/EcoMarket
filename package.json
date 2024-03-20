@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/lucasmoraist/EcoMarket",
   "name": "eco-market",
   "version": "0.0.0",
   "scripts": {
@@ -8,9 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:EcoMarket": "node dist/eco-market/server/server.mjs",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "serve:ssr:EcoMarket": "node dist/eco-market/server/server.mjs"
   },
   "private": true,
   "dependencies": {

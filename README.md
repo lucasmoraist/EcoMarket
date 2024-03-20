@@ -1,2 +1,7 @@
 # EcoMarket
-O EcoMarket é um e-commerce centralizado, onde os consumidores podem encontrar uma ampla variedade de produtos ecológicos, sustentáveis e éticos.
+[pt-br]
+O EcoMarket é uma plataforma de comércio eletrônico inovadora, desenvolvida com Angular 17 e hospedada no GitHub Pages, dedicada a fornecer uma ampla variedade de produtos ecológicos, sustentáveis e éticos. Seu objetivo é oferecer uma experiência de compra conveniente e consciente, reunindo produtos de alta qualidade que não apenas atendam às necessidades dos consumidores, mas também promovam um estilo de vida mais sustentável.
+
+Seu objetivo principal é facilitar o acesso a produtos ecológicos e sustentáveis, tornando-os mais acessíveis para os consumidores preocupados com o meio ambiente. Procurando incentivar escolhas conscientes de consumo, promovendo produtos produzidos de forma ética, utilizando materiais sustentáveis e minimizando o impacto ambiental. Ao oferecer uma plataforma centralizada para esses produtos, é esperado aumentar a conscientização sobre práticas de consumo responsáveis e contribuir para um mundo mais sustentável.
+
+Este projeto foi desenvolvido por acreditar na importância de promover um consumo mais responsável e consciente. Foi observado a crescente demanda por produtos sustentáveis e a lacuna existente no mercado online para reunir esses itens de forma acessível e conveniente. Acredita-se que o EcoMarket pode desempenhar um papel significativo ao facilitar o acesso a produtos ecológicos, apoiando assim um estilo de vida mais saudável e sustentável para os clientes e para o planeta como um todo.

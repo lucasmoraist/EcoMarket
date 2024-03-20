@@ -5,6 +5,10 @@ section {
     align-items: center;
     gap: 50px;
 
+    h2 {
+        text-align: center;
+    }
+
     #conteiner {
         display: flex;
         width: 80vw;
@@ -64,11 +68,13 @@ section {
                     font-weight: 400;
                     cursor: pointer;
                 }
-                .yellow-star{
+
+                .yellow-star {
                     color: #EBC351;
                     font-size: 12px;
                 }
-                .grey-star{
+
+                .grey-star {
                     color: #C7C7C7;
                     font-size: 12px;
                 }

@@ -1,9 +1,18 @@
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
+// Tablet
+@media screen and (max-width: 1278px) and (min-width: 431px){
+    .grid {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 10px;
+        margin-top: 40px;
+    }
+}
 
+/*Monitor*/
+@media screen and (min-width: 1279px) {
     .grid {
         display: grid;
         grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
@@ -14,7 +23,20 @@ section {
         justify-content: center;
         padding: 5px 10px;
         margin-top: 40px;
+    }
+}
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    h2 {
+        text-align: center;
+    }
+
+    .grid {
         .card {
             display: flex;
             flex-direction: column;
@@ -27,7 +49,7 @@ section {
             box-shadow: 0 4px 4px 0 rgba($color: #D9D9D9, $alpha: .5);
             cursor: pointer;
 
-            p{
+            p {
                 font-size: 16px;
                 text-align: center;
             }

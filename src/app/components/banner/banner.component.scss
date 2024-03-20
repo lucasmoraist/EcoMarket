@@ -1,3 +1,135 @@
+// Celular
+@media screen and (max-width: 430px) {
+    section {
+        display: flex;
+        flex-direction: column;
+
+        header {
+            flex-direction: column;
+            gap: 20px;
+
+            #promo {
+                align-items: center;
+            }
+
+            h2 {
+                font-size: 18px;
+                text-align: center;
+            }
+
+            #side-right {
+                display: flex;
+                justify-content: center;
+
+                #cupom {
+                    width: 200px;
+                    height: 90px;
+
+                    div:first-child {
+                        width: 110px;
+
+                        #porcent {
+                            font-size: 30px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+            justify-content: center;
+        }
+    }
+}
+
+// Tablet
+@media screen and (max-width: 768px) and (min-width: 431px) {
+    section {
+        display: flex;
+        flex-direction: column;
+
+        header {
+            gap: 20px;
+            justify-content: space-around;
+
+            h2 {
+                font-size: 28px;
+                text-align: center;
+            }
+
+            #side-right {
+                display: flex;
+                justify-content: center;
+
+                #cupom {
+                    width: 250px;
+                    height: 90px;
+
+                    div:first-child {
+                        width: 110px;
+
+                        #porcent {
+                            font-size: 30px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+            justify-content: center;
+        }
+    }
+}
+
+// Monitor
+@media screen and (min-width: 769px) {
+    section {
+        header {
+            justify-content: space-around;
+
+            h2 {
+                font-size: 49px;
+                font-weight: 700;
+                color: var(--verde-sustentavel);
+            }
+
+            #side-right {
+                #cupom {
+                    width: 381px;
+                    height: 116px;
+
+                    div:first-child {
+                        width: 146px;
+
+                        #porcent {
+                            font-size: 40px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+            width: 454px;
+        }
+    }
+}
+
 #banner {
     background: url("../../../assets/banner-01.png");
     width: 100%;
@@ -8,8 +140,7 @@
     justify-content: center;
     flex-direction: column;
 
-    section{
-        margin: 0 70px 0 90px;
+    section {
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -17,10 +148,27 @@
 
     header {
         display: flex;
-        justify-content: space-between;
+
+        #promo {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            button {
+                border: none;
+                border-radius: 22px;
+                width: 158px;
+                height: 30px;
+                background-color: var(--branco-puro);
+                color: var(--verde-sustentavel);
+
+                font-size: 15px;
+                font-weight: 200;
+                cursor: pointer;
+            }
+        }
 
         h2 {
-            font-size: 49px;
             font-weight: 700;
             color: var(--verde-sustentavel);
         }
@@ -32,8 +180,6 @@
 
             #cupom {
                 display: flex;
-                width: 381px;
-                height: 116px;
                 background-color: var(--branco-puro);
                 border-radius: 20px;
                 gap: 10px;
@@ -42,7 +188,6 @@
                     background-color: var(--verde-sustentavel);
                     color: var(--branco-puro);
                     border-radius: 20px 0 0 20px;
-                    width: 146px;
 
                     display: flex;
                     flex-direction: column;
@@ -52,7 +197,10 @@
                     #porcent {
                         color: var(--branco-puro);
                         font-weight: bold;
-                        font-size: 40px;
+                    }
+
+                    p {
+                        font-weight: 300;
                     }
                 }
 
@@ -78,23 +226,6 @@
                     }
                 }
             }
-        }
-    }
-
-    main {
-        width: 454px;
-
-        button {
-            border: none;
-            border-radius: 22px;
-            width: 158px;
-            height: 30px;
-            background-color: var(--branco-puro);
-            color: var(--verde-sustentavel);
-
-            font-size: 15px;
-            font-weight: 200;
-            cursor: pointer;
         }
     }
 }

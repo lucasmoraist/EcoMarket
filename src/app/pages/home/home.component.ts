@@ -76,30 +76,30 @@ export class HomeComponent {
   bestRated:Product[] = [
     {
       id: 1,
-      name: "Kit 12 Canudos de Bambu",
-      discount: 59.99,
-      price: 78.90,
+      name: "Native, Café Solúvel Liofilizado Orgânico 90g",
+      discount: 29.99,
+      price: 39.99,
       img: "assets/produtos/cafe.png"
     },
     {
       id: 2,
-      name: "Ecobag",
-      discount: 19.99,
-      price: 29.99,
+      name: "Castanha de Caju Torrada",
+      discount: 75.99,
+      price: 83.90,
       img: "assets/produtos/castanha.png"
     },
     {
       id: 3,
-      name: "Esponja Orgânica",
-      discount: 7.49,
-      price: 9.99,
+      name: "Sabonete Líquido de Lavanda e Menta, Vegano",
+      discount: 40,
+      price: 48.29,
       img: "assets/produtos/sabonete-liquido.png"
     },
     {
       id: 4,
-      name: "Lâmpada de Led",
-      discount: 15,
-      price: 19.93,
+      name: "Organify SUPERGREEN Suco verde em pó",
+      discount: 109.99,
+      price: 117.90,
       img: "assets/produtos/suco-po.png"
     }
   ]
